@@ -59,13 +59,13 @@ public class UserService {
 					break;
 				} else {
 					if (numAttemptsLeft > 1 && (user2.getUsername() != inputtedUsername || (user2.getPassword() != inputtedPassword))) {
-						System.out.println("Invalid login #" + (5 - numAttemptsLeft + 1) + ", please try again");
+						System.out.println("Invalid login, please try again");
 					} else if (numAttemptsLeft == 1) {
-						System.out.println("To many failed login attempts, you are now locked out.");
+						System.out.println("Too many failed login attempts, you are now locked out.");
 					}
 					numAttemptsLeft--;
-					// For my INFO ONLY
-					System.out.println("numAttemptsLeft: " + numAttemptsLeft);
+					// FOR MY TESTING PURPOSES ONLY
+					// System.out.println("numAttemptsLeft: " + numAttemptsLeft);
 					break;
 				}	
 			}
