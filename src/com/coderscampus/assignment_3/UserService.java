@@ -75,7 +75,7 @@ public class UserService {
 		
 		// added a new comment to push to github
 		// added a new NEW comment to push to github
-		// ran build path and commiting to github just in case
+		// ran build path and committing to github just in case
 	}
 }
 
