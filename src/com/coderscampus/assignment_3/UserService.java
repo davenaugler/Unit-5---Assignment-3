@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class UserService {
 	// Please review these below and verify they can belong here
 	// Go back through the early videos to verify you are ok
+	// New line of code 
 	String username;
 	String password;
 	String name;
