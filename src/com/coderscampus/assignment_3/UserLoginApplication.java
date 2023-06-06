@@ -6,6 +6,6 @@ public class UserLoginApplication {
 
 	public static void main(String[] args) throws IOException {
 		UserService userService = new UserService();
-		userService.userValidation();
+		userService.initiateLogin();
 	}
 }
